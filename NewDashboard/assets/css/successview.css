@@ -1,0 +1,126 @@
+body {
+  
+    position: relative;
+	background: url('/uploads/img-green.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    padding: 100px 0 0;
+    font-family: 'Roboto', sans-serif;
+	color: #171717;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: emoji;
+
+}
+body::before{
+    position: fixed;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.card {
+    background: url('/uploads/layer-formbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding:60px 30px;
+	background-position: center;
+	box-shadow: none;
+    text-align: center;
+}
+a.logo.logo-admin img {
+    max-width: 150px;
+    margin: 0 auto;
+}
+h5.mainboxes {
+    line-height: 26px;
+    color: #000;
+}
+
+.welcome-txt{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+	margin-bottom: 0 !important;
+}
+.card-body{
+    padding: 0;
+}
+.page-title{
+    color: green;
+    font-size: 25px;
+}
+
+.plants-svg {
+    text-align: center;
+    margin-bottom: 8px;
+}
+@media (max-width:576px) {
+    body{
+        padding: 70px 0;
+    }
+}
+@media (max-width:425px) {
+    body{
+        font-size: 18px;
+    }
+}
+@media (max-width:380px) {
+    .card{
+        padding:65px 20px;
+    }
+
+	.button-three {
+		padding: 10px 7px !important;
+		font-size: 18px !important;
+	}
+	.page-title {
+		font-size: 22px !important;
+	}
+}
+.button-three {
+    position: relative;
+    background: #3d6039;
+    border: 2px solid #ffff;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 15px 0;
+    color: #ffff;
+    font-weight: 500;
+    display: inline-block;
+	font-size: 20px;
+}
+.button-three:hover{
+	background: #fff;
+	color: #3d6039;
+    border: 2px solid #3d6039;
+}
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+  
+
+a {
+	position: relative;
+	color: #999;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font: 700 22px consolas;
+	overflow: hidden;
+}
+
+

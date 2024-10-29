@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Flaticon;
+	src: url(Flaticon.eot);
+	src: url(Flaticond41d.eot?#iefix) format('embedded-opentype'),
+	url(Flaticon.svg#Flaticon) format('svg'),
+	url(Flaticon.woff) format('woff'),
+	url(Flaticon.ttf) format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^='flaticon-'], [class*=' flaticon-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: Flaticon !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-play-button:before {
+	content: "\e900";
+}
+.flaticon-database:before {
+	content: "\e901";
+}
+.flaticon-database-2:before {
+	content: "\e902";
+}
+.flaticon-wallet-2:before {
+	content: "\e903";
+}
+.flaticon-cubes:before {
+	content: "\e904";
+}
+.flaticon-shake-hands:before {
+	content: "\e937";
+}
+.flaticon-coin-edit:before {
+	content: "\e905";
+}
+.flaticon-coin:before {
+	content: "\e906";
+}
+.flaticon-bank:before {
+	content: "\e907";
+}
+.flaticon-portfolio:before {
+	content: "\e90d";
+}
+.flaticon-coin-stack:before {
+	content: "\e90e";
+}
+.flaticon-filter:before {
+	content: "\e90f";
+}
+.flaticon-wallet:before {
+	content: "\e910";
+}
+.flaticon-scales:before {
+	content: "\e911";
+}
+.flaticon-bitcoin:before {
+	content: "\e912";
+}
+.flaticon-diamond:before {
+	content: "\e913";
+}

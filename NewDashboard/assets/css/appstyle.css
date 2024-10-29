@@ -1,0 +1,118 @@
+img.img-fluid.head-logout {
+    max-width: 22px;
+}
+.latest-news {
+    background: #fda004;
+    margin: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0px;
+}
+.br-top {
+    text-align: center;
+}
+.icon-box {
+    display: inline-block;
+    padding:6px;
+    color: #999;
+    text-align:center;
+    width: 100px;
+    display: inline-block;
+}
+.icon-box i{
+    display: block;
+    width: 100%;
+}
+
+.icon-box a {
+    color: #7c7272;
+    font-size: 13px;
+    font-weight: 500;
+}
+.icon-box img {
+    max-width: 30px;
+    display: block;
+    margin: auto;
+}
+.profile-head {
+    background-color: #fda004;
+    color: #fff;
+    text-align: center;
+    padding: 21px 0px;
+}
+.profile-head h4, .profile-head p {
+    margin: 0px;
+}
+.profile-head p {
+	font-size: 20px;
+	color: blue;
+    font-weight: 500;
+}
+.income-box img {
+    max-width: 40px;
+}
+.income-box h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom:0px;
+}
+.income-box p {
+    font-size: 14px;
+    color: #fda004;
+    font-weight: bold;
+}
+.income-table td {
+    width: 50%;
+}
+.profile-update {
+    background: #fda004;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.profile-img {
+    display: inline-block;
+}
+.profile-img img {
+    max-width: 100px!important;
+}
+.profile-detail {
+    display: inline-block;
+}
+.profile-detail p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+}
+.profile-inner img {
+    max-width: 30px;
+    padding-right: 10px;
+}
+.profile-inner a {
+    color: #000;
+}
+.profile-inner ul {
+    padding: 0px;
+    margin: 0px;
+}
+.profile-inner ul li {
+    list-style: none;
+    border-bottom: 1px #d3cdcd solid;
+    padding:10px 0px 10px 10px;
+}
+@media screen and (max-width: 767px){
+	.page-content {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 30px;
+	}
+}

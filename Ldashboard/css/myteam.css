@@ -1,0 +1,122 @@
+table{
+    border-collapse: collapse;
+    /* width: 100% !important; */
+    border: none !important;
+}
+table tr{
+    border: none !important;
+    /* border-bottom: 1px solid #cdd0d7 !important; */
+    white-space: nowrap !important;
+}
+/* table thead {
+    background: #fff !important;
+} */
+table thead tr th{
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    padding: 15px 15px !important;
+    border: none !important;
+    border-bottom: 1px solid var(--primary-color) !important;
+}
+table tbody tr td{
+    color: #fff !important;
+    font-size: 13px !important;
+    font-weight: 500  !important;
+    white-space: nowrap  !important;
+    border: none !important;
+    padding: 5px !important;
+    vertical-align: middle !important;
+}
+
+table tbody tr td a{
+  
+    padding: 8px 15px !important;
+    font-size: 13px !important;
+    border-radius: 5px !important;
+    color: #000 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+table tbody tr td .text-success{
+    font-size: 13px !important;
+    font-weight: 500  !important;
+    color: var(--primary-color) !important;
+}
+
+.dataTables_paginate{
+    display: flex !important;
+    justify-content: flex-end !important;
+    gap: 8px !important;
+} 
+
+.dataTables_paginate a{
+    cursor: pointer !important;
+}
+.dataTables_empty{
+    text-align: center !important;
+}
+
+
+.copy_address{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 576px) {
+    .copy_address{
+        display: block;
+    }
+    .copy_address .btn-copy{
+        margin-top: 15px;
+    }
+}
+.copy_address .btn-copy{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 5px 20px ;
+    white-space: nowrap;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.qr img{
+width: 35%;
+height: 100%;
+}
+.transaction-box a{
+    font-weight: 600;
+}
+
+.note_bg{
+    background: #ff000069;
+    padding: 15px 10px;
+    margin-top: 10px;
+    color: #980909;
+    font-size: 15px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+.note_bg span{
+    font-weight: 700;
+}
+.note_bg .glyphicon-info-sign::before{
+    color: #980909 !important;
+    cursor: pointer;
+}
+.note_bg .glyphicon-info-sign:hover::before{
+    color: #980909 !important;
+}
+
+@media (max-width: 576px) {
+    .note_bg{
+        padding: 8px;
+    }
+}

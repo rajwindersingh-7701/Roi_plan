@@ -1,0 +1,182 @@
+input{
+    border-radius: 4px !important;
+    border: 1px solid #cdd0d7 !important;
+    padding: 4px 6px !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+input:focus-visible{
+    outline: none !important;
+}
+
+input:focus{
+    border-color: var(--primary-color) !important;
+}
+input:-webkit-autofill {
+    background-color: #fff !important;
+    -webkit-text-fill-color: #000 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+
+}
+
+input::placeholder{
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.form-control::placeholder{
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+.form-group label{
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.form-control{
+    background-color: transparent !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 8px 10px !important;
+    border: 1px solid #cdd0d7 !important;
+    font-weight: 500;
+}
+
+.form-control:-webkit-autofill {
+    background-color: #fff !important;
+    -webkit-text-fill-color: #000 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+
+}
+
+.form-control:focus{
+    border-color: #fff !important;
+}
+input.form-control::placeholder {
+    color: #fff !important;
+}
+
+.dataTables_wrapper.no-footer{
+    position: relative;
+}
+
+.dataTables_filter{
+    display: flex !important;
+    justify-content: flex-end !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#tableView{
+    margin: 20px 0 30px;
+}
+
+.dataTables_paginate{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+@media (max-width: 379px){
+  
+}
+
+.dataTables_filter label{
+   color: #000 !important;
+}
+
+
+.dataTables_length label{
+    color: #000 !important;
+}
+
+.dataTables_length label select {
+    padding: 3px 2px !important;
+    border-radius: 4px !important;
+    border: 1px solid #cdd0d7 !important;
+}
+
+.dataTables_length label select:focus-visible{
+    outline: none !important;
+}
+
+.card .card-body .card-header{
+    display: flex !important;
+    justify-content: end !important;
+    padding: 0px !important;
+}
+
+.card .card-body .card-header .card-tools{
+    margin-bottom: 20px !important;
+}
+
+.card .card-body .card-header .card-tools .input-group input {
+    border-radius: 5px 0px 0px 5px !important;
+    border: 1px solid #cdd0d7 !important;
+}
+
+.card .card-body .card-header .card-tools .input-group .input-group-append button {
+    border: 1px solid #cdd0d7;
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.glyphicon::before{
+    color: #000 !important;
+}
+
+.glyphicon:hover::before{
+    color: var(--primary-color) !important;
+}
+
+.page-header{
+  min-height: auto !important;
+  margin-bottom: 10px !important;
+}
+
+.page-header small{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.profile-heading span{
+    font-size: 14px !important;
+    color: #000 !important;
+    font-weight: 500;
+} 
+/* 
+.card .card-body{
+    padding: 0px !important;
+} */
+.deposite_txt{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+@media (max-width:480px){
+    #tableView{
+        margin: 40px 0 30px;
+    }
+
+    .dataTables_filter{
+        right: unset;
+        top: 40px;
+    }
+    .dataTables_paginate{
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        right: unset;
+    }
+
+}
+
+@media  (max-width: 580px) {
+    .page-header small{
+        font-size: 15px !important;
+    }
+
+
+}
